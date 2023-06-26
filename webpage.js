@@ -51,8 +51,8 @@ const nameInput = document.getElementById('nameInput');
 const emailInput = document.getElementById('emailInput');
 const subjectInput = document.getElementById('subjectInput');
 const messageTextarea = document.getElementById('messageTextarea');
-const sendEmailBtn = document.getElementById('sendEmailBtn');
-sendEmailBtn.addEventListener('click', sendEmail);
+const sendEmailLink = document.getElementById('sendEmailLink');
+sendEmailLink.addEventListener('click', sendEmail);
 function sendEmail(event) {
     event.preventDefault();
     const recipientEmail = 'am.picard03@gmail.com'; // Replace with the actual recipient email address
