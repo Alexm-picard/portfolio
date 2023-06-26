@@ -61,5 +61,5 @@ function sendEmail(event) {
     const subject = encodeURIComponent(subjectInput.value);
     const body = encodeURIComponent(`Dear Recipient,\n\n${messageTextarea.value}\n\nBest regards,\n${name}`);
     const mailtoLink = `mailto:${recipientEmail}?subject=${subject}&body=${body}&from=${name}%20<${email}>`;
-    window.location.href = mailtoLink;
+    window.open(mailtoLink);
 }
