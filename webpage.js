@@ -47,7 +47,6 @@ function PageTransitions(){
 
 PageTransitions();
 
-
 const nameInput = document.getElementById('nameInput');
 const emailInput = document.getElementById('emailInput');
 const subjectInput = document.getElementById('subjectInput');
