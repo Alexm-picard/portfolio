@@ -46,20 +46,3 @@ function PageTransitions(){
 }
 
 PageTransitions();
-
-const nameInput = document.getElementById('nameInput');
-const emailInput = document.getElementById('emailInput');
-const subjectInput = document.getElementById('subjectInput');
-const messageTextarea = document.getElementById('messageTextarea');
-const sendEmailLink = document.getElementById('sendEmailLink');
-sendEmailLink.addEventListener('click', sendEmail);
-function sendEmail(event) {
-    event.preventDefault();
-    const recipientEmail = 'am.picard03@gmail.com'; // Replace with the actual recipient email address
-    const name = encodeURIComponent(nameInput.value);
-    const email = encodeURIComponent(emailInput.value);
-    const subject = encodeURIComponent(subjectInput.value);
-    const body = encodeURIComponent(`Dear Recipient,\n\n${messageTextarea.value}\n\nBest regards,\n${name}`);
-    const mailtoLink = `mailto:${recipientEmail}?subject=${subject}&body=${body}&from=${name}%20<${email}>`;
-    window.open(mailtoLink);
-}
