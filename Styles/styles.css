@@ -465,6 +465,9 @@ section {
   color: var(--color-white);
   margin-bottom: 1.5rem;
 }
+.portfolios .portfolio-item .hover-items p {
+  font-size: 1.25rem;
+}
 .portfolios .portfolio-item .hover-items .icons {
   display: flex;
   justify-content: center;
@@ -890,5 +893,20 @@ section {
   }
   .controlls .control {
     margin: 0.5rem 0.3rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .portfolios .portfolio-item .hover-items p {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .portfolios .portfolio-item .hover-items p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 340px) {
+  .portfolios .portfolio-item .hover-items p {
+    font-size: 0.65rem;
   }
 }/*# sourceMappingURL=styles.css.map */
