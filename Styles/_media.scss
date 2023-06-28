@@ -188,3 +188,14 @@
         
     }  
 }
+@media screen and (max-width: 500px){
+    .portfolios{
+        .portfolio-item{
+            .hover-items{
+                p{
+                    font-size: .5rem;
+                }
+            }
+        }
+    }
+}
