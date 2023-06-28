@@ -193,7 +193,29 @@
         .portfolio-item{
             .hover-items{
                 p{
-                    font-size: .5rem;
+                    font-size: .9rem;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 400px){
+    .portfolios{
+        .portfolio-item{
+            .hover-items{
+                p{
+                    font-size: .8rem;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 340px){
+    .portfolios{
+        .portfolio-item{
+            .hover-items{
+                p{
+                    font-size: .65rem;
                 }
             }
         }
