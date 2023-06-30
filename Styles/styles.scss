@@ -455,6 +455,9 @@ section{
                 color: var(--color-white);
                 margin-bottom: 1.5rem;
             }
+            p{
+                font-size: 1.25rem;
+            }
             .icons{
                 display: flex;
                 justify-content: center;
@@ -506,8 +509,40 @@ section{
     grid-gap: 2rem;
     margin-top: 5rem;
     padding-bottom: 2rem;
-    
-    .blog{
+    .click-items{
+        position:absolute;
+        object-fit: cover;
+        display:flex;
+        width: 18.25%;
+        height: 470px;
+        left: 20.5%;
+        top: 4%;
+        border-radius: 5px;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 2rem;
+        margin-top: 5rem;
+        padding-bottom: 2rem;
+        background-color: var(--color-grey-5);
+        box-shadow: 1px 1px 20px rgba(0,0,0,.1);
+        transition: all .4s ease-in-out;
+        .blog-text{
+            margin-top: -7px;
+            padding: 1.1rem;
+            h4{
+                font-size: 1.5rem;
+                margin-bottom: .7rem;
+                color: var(--color-grey-2);
+            }
+            p{
+                color: var(--color-grey-2);
+                line-height: 2rem;
+                padding-bottom: 1rem;
+            }
+        }
+        
+    }
+
+    .hidden{
         position:relative;
         background-color: var(--color-grey-5);
         border-radius: 5px;
@@ -536,6 +571,7 @@ section{
             margin-top: -7px;
             padding: 1.1rem;
             border-top: 8px solid var(--color-secondary);
+            padding-bottom: 2rem;
             h4{
                 font-size: 1.5rem;
                 margin-bottom: .7rem;
@@ -551,7 +587,9 @@ section{
                 padding-bottom: 1rem;
             }
         }
+        
     }
+    
 }
 
 //contact
@@ -646,7 +684,8 @@ section{
             }
         }
         .submit-btn{
-            display: flex;
+            display: grid;
+            grid-template-columns: 30% 30%;
             justify-content: space-around;
             
         }
