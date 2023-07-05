@@ -46,7 +46,7 @@ function PageTransitions(){
 }
 
 PageTransitions();
-const blogDivs = document.querySelectorAll('.hidden');
+const blogDivs = document.querySelectorAll('.blog');
 const textBlogDivs = document.querySelectorAll('.click-items');
 let hiddenBlogDiv = null;
 
