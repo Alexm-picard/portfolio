@@ -78,7 +78,7 @@
 
     }
 }
-@media screen and (max-width: 970){
+@media screen and (max-width: 970px){
     .section{
         padding: 7rem 6rem;
     }
@@ -212,6 +212,17 @@
         .right-contact{   
             .submit-btn{
                 grid-template-columns: 65%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 650px){
+    .portfolios{
+        .portfolio-item{
+            .hover-items{
+                p{
+                    font-size: 1rem;
+                }
             }
         }
     }

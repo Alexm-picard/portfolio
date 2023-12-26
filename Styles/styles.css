@@ -820,7 +820,7 @@ section {
     padding: 7rem 11rem;
   }
 }
-@media screen and (max-width: 970) {
+@media screen and (max-width: 970px) {
   .section {
     padding: 7rem 6rem;
   }
@@ -938,6 +938,11 @@ section {
 @media screen and (max-width: 550px) {
   .contact-content-con .right-contact .submit-btn {
     grid-template-columns: 65%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .portfolios .portfolio-item .hover-items p {
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 500px) {
