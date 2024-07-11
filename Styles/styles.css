@@ -438,7 +438,7 @@ section {
 }
 .portfolios .portfolio-item img {
   width: 100%;
-  height: 500px;
+  height: 650px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 15px;
@@ -773,6 +773,9 @@ section {
   .portfolios {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
+  }
+  .portfolios .portfolio-item img {
+    height: 500px;
   }
 }
 @media screen and (max-width: 1425px) {

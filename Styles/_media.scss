@@ -18,6 +18,11 @@
     .portfolios{
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
+        .portfolio-item{
+            img{
+                height: 500px;
+            }
+        }
     }
     
 }
