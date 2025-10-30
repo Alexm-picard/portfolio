@@ -187,8 +187,7 @@ section {
   left: 0;
   top: 0;
   z-index: -1;
-  -webkit-clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
-          clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+  clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
 }
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
@@ -355,6 +354,48 @@ section {
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .verilog {
   width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .typescript {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .javascript {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .react {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .flask {
+  width: 75%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .nodejs {
+  width: 75%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .pytorch {
+  width: 75%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .tensorflow {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .aws {
+  width: 75%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .docker {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .github-actions {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .rest-apis {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .nosql {
+  width: 75%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .redis {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .sqlite {
+  width: 75%;
 }
 
 .stat-title {
