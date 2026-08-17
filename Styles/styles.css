@@ -397,6 +397,15 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .sqlite {
   width: 75%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .postgresql {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .fastapi {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .springboot {
+  width: 75%;
+}
 
 .stat-title {
   text-transform: uppercase;
